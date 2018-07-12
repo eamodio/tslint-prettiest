@@ -1,0 +1,6 @@
+{
+    "rulesDirectory": "./rules",
+    "rules": {
+        "prettiest": [true, "spaces", 4]
+    }
+}

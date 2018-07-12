@@ -1,0 +1,31 @@
+{
+    "name": "tslint-prettiest",
+    "description": "TSLint rules to \"fix\" prettier formatting",
+    "version": "0.0.1",
+    "author": "Eric Amodio",
+    "license": "SEE LICENSE IN LICENSE",
+    "keywords": [
+        "tslint",
+        "prettier"
+    ],
+    "homepage": "https://github.com/eamodio/tslint-prettiest",
+    "bugs": {
+        "url": "https://github.com/eamodio/tslint-prettiest/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eamodio/tslint-prettiest.git"
+    },
+    "main": "tslint-prettiest.json",
+    "devDependencies": {
+        "@types/node": "^10.5.2",
+        "prettier": "1.13.7",
+        "tslint": "5.10.0",
+        "typescript": "2.9.2"
+    },
+    "scripts": {
+        "compile": "tsc -p ./",
+        "build": "npm run lint && npm run compile",
+        "lint": "tslint --project tsconfig.json --fix"
+    }
+}

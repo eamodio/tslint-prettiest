@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["es2015"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "outDir": "rules",
+        "removeComments": true,
+        "rootDir": "./src",
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "es2015"
+    },
+    "exclude": ["node_modules", "rules"]
+}
