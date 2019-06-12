@@ -1,4 +1,6 @@
+.vscode/
 src/
 .gitignore
+.prettierrc
 tsconfig.json
-tsint.json
+tslint.json
